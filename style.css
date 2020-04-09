@@ -1,0 +1,15 @@
+.select.close .options-wrapper {
+    display: none;
+    position: relative;
+}
+
+.options-wrapper {
+    position: absolute;
+    top: 0;
+    z-index: 2;
+
+    height: 200px;
+    width: 200px;
+
+    overflow-y: scroll;
+}
